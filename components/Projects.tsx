@@ -93,7 +93,7 @@ export default function Projects() {
                             <div className="project-header">
                                 <div className="project-icon">{featured.icon}</div>
                                 <div className="project-links">
-                                    <a href={featured.link} className="project-link" target="_blank" rel="noopener" aria-label="Link">↗</a>
+                                    <a href={featured.link} className="project-link" target="_blank" rel="noopener noreferrer" aria-label="Link">↗</a>
                                 </div>
                             </div>
                             <h3 className="project-title">{projectThemeText[featured.id]?.title ?? featured.title}</h3>
@@ -109,7 +109,7 @@ export default function Projects() {
                             <div className="project-header">
                                 <div className="project-icon">{p.icon}</div>
                                 <div className="project-links">
-                                    <a href={p.link} className="project-link" target="_blank" rel="noopener" aria-label="Link">↗</a>
+                                    <a href={p.link} className="project-link" target="_blank" rel="noopener noreferrer" aria-label="Link">↗</a>
                                 </div>
                             </div>
                             <div className="project-tag">{domainLabel[p.id]}</div>

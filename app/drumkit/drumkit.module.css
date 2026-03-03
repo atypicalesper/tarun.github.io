@@ -47,12 +47,12 @@
   margin-bottom: 3rem;
 }
 
+/* 4 per row on desktop → last 3 sit centred in the row */
 .set {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
   gap: 1rem;
   justify-content: center;
-  max-width: 1100px;
 }
 
 .drum {
@@ -88,10 +88,20 @@
   opacity: 0.7;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .set {
+    grid-template-columns: repeat(3, 110px);
+  }
+
   .drum {
     width: 110px;
     height: 110px;
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .set {
+    grid-template-columns: repeat(2, 110px);
   }
 }
