@@ -63,7 +63,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   transition: background var(--transition-slow), color var(--transition-med);
-  cursor: url('/wand-cursor.svg') 4 28, default;
+  cursor: url('/wand-cursor.svg') 23 9, default;
 }
 
 /* ── Wand cursor: keep pointer for interactive elements ────── */
