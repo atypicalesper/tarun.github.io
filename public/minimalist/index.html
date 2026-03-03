@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="default">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarun Singh – Senior Fullstack Engineer</title>
+    <meta name="description"
+        content="Portfolio of Tarun Singh – Senior Fullstack Engineer specialising in Node.js, NestJS, microservices, IoT, fintech, and AI-powered backends." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=UnifrakturMaguntia&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ░░░ NAVIGATION ░░░ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-name" data-default="tarun.dev" data-shakespeare="The Singh Chronicles"
+                data-snape="Tarun's Dossier" data-tharoor="Singh.in" data-attenborough="atypicalesper">tarun.dev</span>
+            <span class="logo-bracket">/&gt;</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about" class="nav-link" data-default="About" data-shakespeare="Prologue" data-snape="Your File"
+                data-tharoor="Exposition" data-attenborough="Origins">About</a>
+            <a href="#skills" class="nav-link" data-default="Skills" data-shakespeare="Virtues" data-snape="Expertise"
+                data-tharoor="Competencies" data-attenborough="Adaptations">Skills</a>
+            <a href="#projects" class="nav-link" data-default="Projects" data-shakespeare="Works"
+                data-snape="Experiments" data-tharoor="Endeavours" data-attenborough="Specimens">Projects</a>
+            <a href="#contact" class="nav-link" data-default="Contact" data-shakespeare="Find Me" data-snape="Summon Me"
+                data-tharoor="Correspondence" data-attenborough="Habitat">Contact</a>
+        </div>
+        <a href="../" class="nav-link" style="font-size:0.8rem;opacity:0.6">← new portfolio</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ░░░ THEME SWITCHER ░░░ -->
+    <div class="theme-switcher" id="themeSwitcher">
+        <div class="switcher-label">Narrate as:</div>
+        <div class="switcher-pills">
+            <button class="pill active" data-target="default" id="pill-default">
+                <span class="pill-icon">👤</span>
+                <span class="pill-text">Myself</span>
+            </button>
+            <button class="pill" data-target="shakespeare" id="pill-shakespeare">
+                <span class="pill-icon">🎭</span>
+                <span class="pill-text">Shakespeare</span>
+            </button>
+            <button class="pill" data-target="snape" id="pill-snape">
+                <span class="pill-icon">🧪</span>
+                <span class="pill-text">Snape</span>
+            </button>
+            <button class="pill" data-target="tharoor" id="pill-tharoor">
+                <span class="pill-icon">🪶</span>
+                <span class="pill-text">Tharoor</span>
+            </button>
+            <button class="pill" data-target="attenborough" id="pill-attenborough">
+                <span class="pill-icon">🦁</span>
+                <span class="pill-text">Attenborough</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ░░░ HERO ░░░ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <div class="hero-eyebrow">
+                <span class="eyebrow-text" data-default="✦ Senior Fullstack Engineer @ Crownstack"
+                    data-shakespeare="✦ Artisan of Digital Architectures Most Grand"
+                    data-snape="✦ There will be no foolish wand-waving here — only clean code"
+                    data-tharoor="✦ A Practitioner of Computational Legerdemain and Backend Wizardry"
+                    data-attenborough="✦ And here, in its natural habitat — the backend — the Senior Engineer stirs">✦
+                    Senior Fullstack Engineer @ Crownstack</span>
+            </div>
+            <h1 class="hero-name">
+                <span class="name-line-1" data-default="Hello, I'm" data-shakespeare="Hark! Know ye"
+                    data-snape="You are in the presence of" data-tharoor="Permit me to introduce"
+                    data-attenborough="Observe, if you will —">Hello, I'm</span>
+                <span class="name-highlight" data-default="Tarun Singh" data-shakespeare="Tarun of House Singh"
+                    data-snape="Mr. Singh" data-tharoor="Tarun Singh, Esquire" data-attenborough="Tarun Singh">Tarun
+                    Singh</span>
+            </h1>
+            <p class="hero-subtitle"
+                data-default="I build scalable, secure backend systems in Node.js and NestJS — from fintech microservices to real-time IoT platforms. 3+ years turning complex requirements into clean, production-grade code."
+                data-shakespeare="All the world's a server, and all the APIs merely endpoints — but this engineer doth craft microservices of remarkable resilience, bridging fintech, IoT, and real-time platforms with code most elegant."
+                data-snape="I have the ability to bewitch the mind and ensnare the senses. I can teach you how to bottle scalability, brew microservices, and even put a stopper in — bugs. That is, if you aren't as much of a dunderhead as I usually have to endure."
+                data-tharoor="One who endeavours, with considerable perspicacity and no small degree of technical acumen, to transmute the ephemeral requirements of fintech, IoT, and real-time platforms into production-grade systems of extraordinary scalability and robustness."
+                data-attenborough="Remarkable. In over three years of evolution, this Full-Stack Engineer has developed highly specialised adaptations — an instinct for microservices, a fearlessness toward legacy systems, and an almost supernatural ability to make Node.js do things it wasn't designed to do.">
+                I build scalable, secure backend systems in Node.js and NestJS — from fintech microservices to real-time
+                IoT platforms. 3+ years turning complex requirements into clean, production-grade code.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary" data-default="View My Work"
+                    data-shakespeare="Witness My Folios" data-snape="Inspect My Methods"
+                    data-tharoor="Peruse My Magnum Opera" data-attenborough="Observe the Specimens">View My Work</a>
+                <a href="#contact" class="btn btn-secondary" data-default="Get In Touch"
+                    data-shakespeare="Send Thy Missive" data-snape="If You Must" data-tharoor="Initiate Correspondence"
+                    data-attenborough="Approach the Habitat">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <div class="card-dot green"></div>
+                <span data-default="NestJS · Node.js" data-shakespeare="The Engine of Logic"
+                    data-snape="Potions: Advanced" data-tharoor="The Nodal Architecture"
+                    data-attenborough="Primary Tooling">NestJS · Node.js</span>
+            </div>
+            <div class="floating-card card-2">
+                <div class="card-dot blue"></div>
+                <span data-default="5 Production Projects" data-shakespeare="V Great Works"
+                    data-snape="5 Successful Experiments" data-tharoor="Quintet of Deployments"
+                    data-attenborough="5 Observed Specimens">5 Production Projects</span>
+            </div>
+            <div class="floating-card card-3">
+                <div class="card-dot purple"></div>
+                <span data-default="Fintech · IoT · AI" data-shakespeare="Domains Conquered"
+                    data-snape="Classified Domains" data-tharoor="Polymathic Domains"
+                    data-attenborough="Ecological Niches">Fintech · IoT · AI</span>
+            </div>
+            <div class="code-blob">
+                <pre class="code-display" data-default="const tarun = {
+  role: 'Senior FS Engineer',
+  stack: ['NestJS', 'Node', 'PG'],
+  domains: ['fintech','IoT','AI'],
+  coffee: Infinity,
+};" data-shakespeare="He doth weave microservices
+as the Bard doth weave
+verse — each endpoint a
+stanza, each API a sonnet." data-snape="const engineer = {
+  talent: 'considerable',
+  patience: 'limited',
+  bugs: 0, // obviously
+  result: 'OUTSTANDING',
+};" data-tharoor="const lexicon = new Map([
+  ['microservices', true],
+  ['perspicacious', true],
+  ['NestJS', 'mastered'],
+  ['Node.js', 'conquered'],
+]);" data-attenborough="// Watch closely...
+// The engineer pushes
+// to production at 11pm.
+// Astonishingly — it works.
+// Nature is remarkable.">const tarun = {
+  role: 'Senior FS Engineer',
+  stack: ['NestJS', 'Node', 'PG'],
+  domains: ['fintech','IoT','AI'],
+  coffee: Infinity,
+};</pre>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span data-default="scroll" data-shakespeare="descend" data-snape="proceed" data-tharoor="continue"
+                data-attenborough="migrate">scroll</span>
+        </div>
+    </section>
+
+    <!-- ░░░ ABOUT ░░░ -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-default="01 / About" data-shakespeare="Act I / The Prologue"
+                    data-snape="Record / Your File" data-tharoor="Preface / The Personage"
+                    data-attenborough="Chapter I / Origins">01 / About</span>
+                <h2 class="section-title" data-default="The Story So Far" data-shakespeare="From Humble Beginnings"
+                    data-snape="What I Know About You" data-tharoor="A Biographical Exegesis"
+                    data-attenborough="Three Years in the Wild">The Story So Far</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-core">
+                        <div class="avatar-emoji" data-default="👨‍💻" data-shakespeare="🎭" data-snape="🧙"
+                            data-tharoor="🪶" data-attenborough="🦁">👨‍💻</div>
+                    </div>
+                    <div class="avatar-stats">
+                        <div class="stat">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label" data-default="Years Exp." data-shakespeare="Seasons of Craft"
+                                data-snape="Years of Mastery" data-tharoor="Annum of Practice"
+                                data-attenborough="Years Observed">Years Exp.</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">5</div>
+                            <div class="stat-label" data-default="Projects" data-shakespeare="Compositions"
+                                data-snape="Experiments" data-tharoor="Endeavours" data-attenborough="Specimens">
+                                Projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">40%</div>
+                            <div class="stat-label" data-default="Perf. Gains" data-shakespeare="Velocity Attained"
+                                data-snape="Improvement. Naturally." data-tharoor="Quantified Uplift"
+                                data-attenborough="Efficiency Evolved">Perf. Gains</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-para"
+                        data-default="I'm a Senior Fullstack Engineer at Crownstack Technologies, Noida, with 3+ years designing and delivering scalable backend systems across fintech, real-time platforms, IoT, healthcare, and AI domains."
+                        data-shakespeare="I am a Senior Fullstack Engineer of considerable renown at Crownstack Technologies, whose output hath spanned the domains of fintech, real-time platforms, IoT, healthcare, and artificial intelligence — a range as broad as the Globe Theatre's repertoire."
+                        data-snape="I am a Senior Fullstack Engineer at Crownstack Technologies. I have 3 years of experience that most engineers would require 6 years to accumulate. I work across fintech, IoT, healthcare, and AI — not because I seek variety, but because complexity does not frighten me."
+                        data-tharoor="I am a Senior Fullstack Engineer of considerable and multifarious expertise, ensconced within Crownstack Technologies in Noida — an organization of remarkable technological ambition — where I have, over the course of three years, architected systems of extraordinary complexity."
+                        data-attenborough="Crownstack Technologies, Noida. This is where our engineer has made its home. Over three remarkable years, it has developed specialisations across multiple technological biomes — fintech, IoT, healthcare, and AI — an extraordinary range of adaptation.">
+                        I'm a Senior Fullstack Engineer at Crownstack Technologies, Noida, with 3+ years designing and
+                        delivering scalable backend systems across fintech, real-time platforms, IoT, healthcare, and AI
+                        domains.
+                    </p>
+                    <p class="about-para"
+                        data-default="Specialising in Node.js, NestJS, and Python, I've built microservices, secure authentication systems, and high-throughput APIs. I've migrated legacy systems, improved performance by 40%, and integrated everything from KYC providers to Stripe to IoT brokers."
+                        data-shakespeare="My quill — Node.js and NestJS — hath authored microservices most grand and authentication systems of impregnable security. I have taken decrepit PHP monoliths and reborn them as graceful microservices, improving performance by two score percent."
+                        data-snape="My tools are Node.js, NestJS, and Python. I have migrated a PHP monolith — a particularly unpleasant task — to a proper microservices architecture, improving performance by 40%. I have integrated KYC, Stripe, MQTT, and LLMs. Do try to keep up."
+                        data-tharoor="My technical polymathy encompasses Node.js, NestJS, and Python — instruments with which I have constructed microservices architectures of considerable sophistication, achieving performance improvements of approximately forty percent through judicious refactoring."
+                        data-attenborough="Armed with Node.js and NestJS, the engineer has developed a remarkable technique: migrating entire PHP monoliths with surgical precision. The efficiency gains — a staggering 40% — are a testament to years of careful adaptation.">
+                        Specialising in Node.js, NestJS, and Python, I've built microservices, secure authentication
+                        systems, and high-throughput APIs. I've migrated legacy systems, improved performance by 40%,
+                        and integrated everything from KYC providers to Stripe to IoT brokers.
+                    </p>
+                    <div class="about-badges">
+                        <span class="badge" data-default="🏢 Crownstack Technologies"
+                            data-shakespeare="🏰 House Crownstack" data-snape="🏰 Crownstack Academy"
+                            data-tharoor="🏢 Crownstack Technologies" data-attenborough="🌿 Crownstack Territory">🏢
+                            Crownstack Technologies</span>
+                        <span class="badge" data-default="📍 Noida, UP" data-shakespeare="📍 The Northern Province"
+                            data-snape="📍 Noida. Deliberately vague." data-tharoor="📍 Noida, Uttar Pradesh"
+                            data-attenborough="📍 Northern India">📍 Noida, UP</span>
+                        <span class="badge" data-default="🎓 NPTEL IIT Madras"
+                            data-shakespeare="🎓 Scholar of Computational Arts" data-snape="🎓 Certified. Obviously."
+                            data-tharoor="🎓 NPTEL IIT Madras Alumnus" data-attenborough="🎓 Formally Trained">🎓 NPTEL
+                            IIT Madras</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░░ SKILLS ░░░ -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-default="02 / Skills" data-shakespeare="Act II / Virtues"
+                    data-snape="Record / Expertise" data-tharoor="Chapter II / Competencies"
+                    data-attenborough="Chapter II / Adaptations">02 / Skills</span>
+                <h2 class="section-title" data-default="What I Bring to the Table" data-shakespeare="My Many Virtues"
+                    data-snape="My Unparalleled Expertise" data-tharoor="A Catalogue of Competencies"
+                    data-attenborough="Remarkable Adaptations">What I Bring to the Table</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3 class="skill-title" data-default="Backend" data-shakespeare="The Engine Below"
+                        data-snape="The Substance" data-tharoor="The Infrastructural Apparatus"
+                        data-attenborough="The Primary Adaptation">Backend</h3>
+                    <p class="skill-desc"
+                        data-default="Node.js, NestJS, Express.js, TypeScript, Python, Django. Building APIs and microservices that scale."
+                        data-shakespeare="Node.js and NestJS, the twin engines of my craft — with TypeScript as the precise quill and Python as the learned tongue — I do build APIs worthy of the highest stage."
+                        data-snape="Node.js. NestJS. TypeScript. Python. I do not accept sloppy architecture. Every service will be — exact. Every endpoint — intentional."
+                        data-tharoor="Proficient in Node.js, NestJS, TypeScript, and the Pythonic arts — constructing microservices of extraordinary resilience and APIs of commendable throughput."
+                        data-attenborough="Node.js and NestJS — the engineer's primary adaptive tools. Developed over years of exposure to production environments, these skills allow it to construct APIs of remarkable structural integrity.">
+                        Node.js, NestJS, Express.js, TypeScript, Python, Django. Building APIs and microservices that
+                        scale.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3 class="skill-title" data-default="Databases" data-shakespeare="The Vaults of Memory"
+                        data-snape="The Cauldron of Data" data-tharoor="The Epistemic Repository"
+                        data-attenborough="The Memory Store">Databases</h3>
+                    <p class="skill-desc"
+                        data-default="PostgreSQL, MongoDB, Supabase, Pinecone, Redis, MySQL. From relational to vector — I speak them all."
+                        data-shakespeare="PostgreSQL — the great ledger of relations — MongoDB, whose documents are as varied as my characters, Supabase, Pinecone, and Redis, the swift herald of cached knowledge."
+                        data-snape="PostgreSQL. MongoDB. Redis. Pinecone. I have worked with more databases than most developers have heard of. This is not a boast. It is simply a fact."
+                        data-tharoor="Conversant with the relational episteme of PostgreSQL, the document-oriented paradigm of MongoDB, the vector space of Pinecone, and the in-memory efficiencies of Redis."
+                        data-attenborough="Observe the engineer's remarkable relationship with data stores. PostgreSQL for structure. MongoDB for flexibility. Pinecone for vectors. Redis for speed. A truly varied diet.">
+                        PostgreSQL, MongoDB, Supabase, Pinecone, Redis, MySQL. From relational to vector — I speak them
+                        all.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3 class="skill-title" data-default="Cloud & DevOps" data-shakespeare="The Celestial Realm"
+                        data-snape="The Dark Arts of Deployment" data-tharoor="The Computational Ether"
+                        data-attenborough="The Migration Patterns">Cloud & DevOps</h3>
+                    <p class="skill-desc"
+                        data-default="AWS, GCP, Docker, PM2, Nginx. Deploying to production with confidence and keeping it running."
+                        data-shakespeare="AWS and GCP — the twin heavens of computation — Docker as the vessel that carries my works across environments, and Nginx, the faithful gatekeeper."
+                        data-snape="AWS. GCP. Docker. Nginx. I deploy. It runs. No one hears from me at 3am. Unlike certain other engineers."
+                        data-tharoor="Adept in the deployment paradigms of AWS and GCP, containerization via Docker, and the reverse-proxy architectures of Nginx — ensuring production systems of commendable uptime."
+                        data-attenborough="AWS and GCP — vast cloud ecosystems where the engineer's work finds its final home. Docker provides the vessel. Nginx the gateway. The production environment is harsh, but this engineer thrives.">
+                        AWS, GCP, Docker, PM2, Nginx. Deploying to production with confidence and keeping it running.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔗</div>
+                    <h3 class="skill-title" data-default="Integrations" data-shakespeare="The Art of Alliance"
+                        data-snape="Third-Party Potions" data-tharoor="The Integrative Praxis"
+                        data-attenborough="Symbiotic Relationships">Integrations</h3>
+                    <p class="skill-desc"
+                        data-default="Stripe, Twilio, RabbitMQ, MQTT, OpenAI, KYC APIs, OAuth2, JWT. Connecting systems that shouldn't talk."
+                        data-shakespeare="Stripe, that most mercantile of partners — Twilio, the messenger — MQTT for IoT signals from distant lands, and OpenAI, the oracle of artificial wisdom. All unified in one grand tapestry."
+                        data-snape="Stripe. Twilio. MQTT. OpenAI. KYC systems. RabbitMQ. I integrate what others consider impossible. And I do it without asking for help."
+                        data-tharoor="Practiced in the integrative arts of Stripe payment orchestration, Twilio communications, MQTT telemetry, OpenAI language models, and KYC regulatory APIs — a comprehensive integration portfolio."
+                        data-attenborough="The engineer has formed remarkable symbioses with third-party systems — Stripe for payments, Twilio for alerts, MQTT for IoT signals. Each integration, a new partnership forged in production.">
+                        Stripe, Twilio, RabbitMQ, MQTT, OpenAI, KYC APIs, OAuth2, JWT. Connecting systems that shouldn't
+                        talk.
+                    </p>
+                </div>
+            </div>
+            <!-- Tech Tags -->
+            <div class="tech-cloud">
+                <span class="tech-tag highlight">Node.js</span>
+                <span class="tech-tag highlight">NestJS</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag highlight">PostgreSQL</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">Pinecone</span>
+                <span class="tech-tag highlight">Docker</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">GCP</span>
+                <span class="tech-tag">MQTT</span>
+                <span class="tech-tag">RabbitMQ</span>
+                <span class="tech-tag highlight">Stripe</span>
+                <span class="tech-tag">Twilio</span>
+                <span class="tech-tag">OpenAI</span>
+                <span class="tech-tag">PostGIS</span>
+                <span class="tech-tag">JWT / OAuth2</span>
+                <span class="tech-tag">Django</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░░ PROJECTS ░░░ -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-default="03 / Projects" data-shakespeare="Act III / Works"
+                    data-snape="Record / Experiments" data-tharoor="Chapter III / Endeavours"
+                    data-attenborough="Chapter III / Specimens">03 / Projects</span>
+                <h2 class="section-title" data-default="Things I've Built" data-shakespeare="Folios of My Making"
+                    data-snape="What I Have Produced" data-tharoor="Notable Digital Constructs"
+                    data-attenborough="Specimens in the Field">Things I've Built</h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- PROJECT 1 – Loan Management System (featured) -->
+                <div class="project-card featured">
+                    <div class="project-tag" data-default="Fintech" data-shakespeare="Masterwork"
+                        data-snape="Outstanding" data-tharoor="Pièce de Résistance" data-attenborough="Alpha Specimen">
+                        Fintech</div>
+                    <div class="project-header">
+                        <div class="project-icon">🏦</div>
+                        <div class="project-links">
+                            <a href="https://atypicalesper.github.io" class="project-link" aria-label="Portfolio">↗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title" data-default="Loan Management System"
+                        data-shakespeare="The Grand Ledger of Credit" data-snape="Project Gringotts"
+                        data-tharoor="The Digital Credit Lifecycle Architecture" data-attenborough="The NBFC Platform">
+                        Loan Management System</h3>
+                    <p class="project-desc"
+                        data-default="Migrated a legacy PHP monolith to NestJS microservices for an NBFC platform — achieving 40% better scalability. Built KYC/risk services integrating Aadhaar eKYC, PAN, Account Aggregator, and a secure RBAC-based auth system deployed on AWS."
+                        data-shakespeare="A monolith most ancient — writ in PHP — was taken asunder and reborn as NestJS microservices of elegant composition, yielding a forty percent improvement in scalability. KYC and risk assessment were woven in; Aadhaar and PAN made to speak as one."
+                        data-snape="Took a PHP monolith. Destroyed it. Built NestJS microservices in its place. Integrated Aadhaar eKYC, PAN verification, Account Aggregator. Implemented RBAC. Deployed on AWS. Performance improved by 40%. You're welcome."
+                        data-tharoor="An enterprise-grade NBFC platform, architecturally transformed from a PHP monolith of considerable technical debt into a NestJS microservices ecosystem of extraordinary scalability — a 40% improvement in deployment efficiency being a conservative estimate."
+                        data-attenborough="A remarkable transformation. The engineer encountered a PHP monolith — ancient, struggling, barely surviving. Through careful intervention, it was dismantled and rebuilt as NestJS microservices. The performance improved by 40%. Nature, finding a way.">
+                        Migrated a legacy PHP monolith to NestJS microservices for an NBFC platform — achieving 40%
+                        better scalability. Built KYC/risk services integrating Aadhaar eKYC, PAN, Account Aggregator,
+                        and a secure RBAC-based auth system deployed on AWS.
+                    </p>
+                    <div class="project-stack">
+                        <span>NestJS</span><span>Microservices</span><span>MySQL</span><span>Redis</span><span>AWS</span><span>Docker</span>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 – That's My Jam -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎵</div>
+                        <div class="project-links">
+                            <a href="https://atypicalesper.github.io" class="project-link" aria-label="Portfolio">↗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title" data-default="That's My Jam" data-shakespeare="The Bard's Stage Bids"
+                        data-snape="Project Sonorus" data-tharoor="The Musical Engagement Platform"
+                        data-attenborough="The Live Music Ecosystem">That's My Jam</h3>
+                    <p class="project-desc"
+                        data-default="Real-time music bidding platform for live events — audiences bid on songs for DJs/bands via WebSockets. Built role-based APIs, Stripe payments, and analytics. Boosted client revenue by 20%."
+                        data-shakespeare="A stage where audiences do bid upon songs as merchants at a fair — WebSockets carrying their wishes aloft to DJs most responsive. Stripe handled the coin; revenue rose by a fifth."
+                        data-snape="A bidding platform. For music. At live events. WebSockets — obviously. Stripe integration — competently done. Revenue increased by 20%. They were lucky to have me."
+                        data-tharoor="A real-time musical engagement paradigm wherein audiences participate in the democratic selection of musical repertoire through a WebSocket-driven bidding mechanism, augmented by Stripe payment orchestration, yielding a 20% revenue increment."
+                        data-attenborough="Fascinating. Here, the engineer observed a gap in the live music ecosystem — audiences with no voice. The solution: WebSocket-driven bidding. Revenue grew by 20%. A mutually beneficial adaptation.">
+                        Real-time music bidding platform for live events — audiences bid on songs for DJs/bands via
+                        WebSockets. Built role-based APIs, Stripe payments, and analytics. Boosted client revenue by
+                        20%.
+                    </p>
+                    <div class="project-stack">
+                        <span>Node.js</span><span>WebSocket</span><span>Stripe</span><span>NodeCron</span>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 – First Fire -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔥</div>
+                        <div class="project-links">
+                            <a href="https://atypicalesper.github.io" class="project-link" aria-label="Portfolio">↗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title" data-default="First Fire" data-shakespeare="The Conflagration Sentinel"
+                        data-snape="Project Incendio" data-tharoor="The Pyro-Detection Infrastructure"
+                        data-attenborough="The Fire Detection System">First Fire</h3>
+                    <p class="project-desc"
+                        data-default="IoT fire-detection platform for US garbage truck fleets — MQTT/EMQX processes real-time sensor data, triggering instant Twilio (SMS/call) and AWS SNS alerts. High-availability, low-latency incident response."
+                        data-shakespeare="A sentinel most vigilant — built upon MQTT and EMQX — that watcheth over garbage trucks across the American realm, detecting fire with the speed of thought and alerting fleet operators via Twilio and SNS."
+                        data-snape="IoT fire detection. Garbage trucks. United States. MQTT, EMQX, Twilio, AWS SNS. Real-time sensor processing. Incidents logged. Alerts sent. Fires — contained. Try to keep up."
+                        data-tharoor="An IoT-driven pyro-detection paradigm deployed across the North American garbage truck fleet ecosystem, leveraging MQTT and EMQX for real-time telemetric processing and multi-channel alerting via Twilio and AWS SNS."
+                        data-attenborough="A system monitoring the most unexpected of environments — garbage trucks. Using MQTT sensors, it detects fire events with remarkable speed. Twilio delivers the alarm. AWS SNS amplifies it. A life-saving adaptation.">
+                        IoT fire-detection platform for US garbage truck fleets — MQTT/EMQX processes real-time sensor
+                        data, triggering instant Twilio (SMS/call) and AWS SNS alerts. High-availability, low-latency
+                        incident response.
+                    </p>
+                    <div class="project-stack">
+                        <span>MQTT</span><span>EMQX</span><span>Node.js</span><span>Twilio</span><span>AWS SNS</span>
+                    </div>
+                </div>
+
+                <!-- PROJECT 4 – Direct Care Staffing -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🏥</div>
+                        <div class="project-links">
+                            <a href="https://atypicalesper.github.io" class="project-link" aria-label="Portfolio">↗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title" data-default="Direct Care Staffing"
+                        data-shakespeare="The Healers' Registry" data-snape="Project Mediwitch"
+                        data-tharoor="The Healthcare Workforce Platform"
+                        data-attenborough="The Healthcare Staffing Habitat">Direct Care Staffing</h3>
+                    <p class="project-desc"
+                        data-default="HIPAA-compliant healthcare staffing platform — nurse onboarding, credential management, PostGIS location-based workforce deployment, and encrypted data storage for sensitive patient/staff records."
+                        data-shakespeare="A great registry of healers — nurses onboarded, credentials tracked, and PostGIS enlisted to deploy the workforce across the realm with geographic precision, all encrypted in accordance with HIPAA's most stringent edicts."
+                        data-snape="HIPAA compliance. Nurse onboarding. PostGIS for geospatial staffing. Encrypted APIs. Sensitive data — handled with the care it deserves. Unlike certain other developers' commits."
+                        data-tharoor="A HIPAA-compliant healthcare staffing paradigm, integrating PostGIS geospatial capabilities with robust credential management systems and encryption protocols of commendable rigour."
+                        data-attenborough="Healthcare — a sensitive ecosystem. The engineer built systems here with extraordinary care: encrypted APIs, HIPAA compliance, PostGIS for location-aware staffing. Precision was not optional.">
+                        HIPAA-compliant healthcare staffing platform — nurse onboarding, credential management, PostGIS
+                        location-based workforce deployment, and encrypted data storage for sensitive patient/staff
+                        records.
+                    </p>
+                    <div class="project-stack">
+                        <span>Node.js</span><span>PostgreSQL</span><span>PostGIS</span><span>Sequelize</span>
+                    </div>
+                </div>
+
+                <!-- PROJECT 5 – Dave Steel / HRMS -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🏗️</div>
+                        <div class="project-links">
+                            <a href="https://atypicalesper.github.io" class="project-link" aria-label="Portfolio">↗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title" data-default="Dave Steel HRMS" data-shakespeare="The Workforce Compendium"
+                        data-snape="Project Structuro" data-tharoor="The Construction HRMS Platform"
+                        data-attenborough="The Industrial HRMS System">Dave Steel HRMS</h3>
+                    <p class="project-desc"
+                        data-default="Construction-sector HRMS — payroll, project-based staffing, approval workflows, and Tekla Structures integration. Refactored legacy modules and optimised DB queries for a 40% performance boost on AWS EC2."
+                        data-shakespeare="An HRMS most sturdy as steel itself — payroll managed, workflows orchestrated, and Tekla Structures made to speak with the system's approval pipelines. Legacy code was cleansed; performance rose by two score percent."
+                        data-snape="Construction HRMS. Legacy modules — refactored. Database queries — optimised. Tekla Structures — integrated. Performance improved by 40%. Deployed on AWS EC2 with Nginx. Adequate work. From me, exceptional."
+                        data-tharoor="A construction-sector Human Resource Management System of considerable functional breadth — encompassing payroll automation, project-based staffing workflows, and the rather remarkable integration of Tekla Structures — with a 40% performance improvement."
+                        data-attenborough="The engineer entered the construction sector — rugged terrain. Legacy code everywhere. Each refactored module, each optimised query, brought the system 40% closer to survival. Tekla Structures integration: a landmark achievement.">
+                        Construction-sector HRMS — payroll, project-based staffing, approval workflows, and Tekla
+                        Structures integration. Refactored legacy modules and optimised DB queries for a 40% performance
+                        boost on AWS EC2.
+                    </p>
+                    <div class="project-stack">
+                        <span>Node.js</span><span>PostgreSQL</span><span>Sequelize</span><span>AWS
+                            EC2</span><span>Nginx</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░░ CONTACT ░░░ -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-glow"></div>
+                <div class="section-header centered">
+                    <span class="section-tag" data-default="04 / Contact" data-shakespeare="Finale / Find Me"
+                        data-snape="Final Record / Summon" data-tharoor="Coda / Correspondence"
+                        data-attenborough="Final Chapter / Habitat">04 / Contact</span>
+                    <h2 class="section-title" data-default="Let's Build Something" data-shakespeare="Let Us Collaborate"
+                        data-snape="State Your Business" data-tharoor="Let Us Commence a Dialogue"
+                        data-attenborough="Approach the Engineer">Let's Build Something</h2>
+                    <p class="contact-blurb"
+                        data-default="Whether you've got a backend challenge, a fintech project, or just want to geek out over microservices — I'm always up for a good conversation."
+                        data-shakespeare="Whether thou hast a grand backend challenge weighing upon thy mind, or merely wishest to discourse upon the finer points of microservices — my parchment is ever ready."
+                        data-snape="If you have a worthwhile proposition — and I mean worthwhile — send your message. I will respond when I deem it appropriate. Not before."
+                        data-tharoor="Whether you are possessed of a grand digital ambition in the domains of fintech, IoT, or AI, or merely wish to engage in the convivial exchange of architectural philosophies — I am at your epistolary disposal."
+                        data-attenborough="The engineer is approachable. Slowly now. With a good problem statement. It responds well to interesting technical challenges and backend architecture discussions.">
+                        Whether you've got a backend challenge, a fintech project, or just want to geek out over
+                        microservices — I'm always up for a good conversation.
+                    </p>
+                </div>
+                <div class="contact-actions">
+                    <a href="mailto:tarun@example.com" class="btn btn-primary btn-large" data-default="📬 Say Hello"
+                        data-shakespeare="📜 Send a Missive" data-snape="🧙 If You Must"
+                        data-tharoor="📮 Dispatch a Letter" data-attenborough="🦁 Make Contact">📬 Say Hello</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/atypicalesper" class="social-link" aria-label="GitHub" target="_blank"
+                        rel="noopener">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="https://atypicalesper.github.io" class="social-link" aria-label="Existing Portfolio"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/tarunsingh" class="social-link" aria-label="LinkedIn"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░░ FOOTER ░░░ -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text" data-default="Crafted with ☕ and Node.js · Tarun Singh © 2026"
+                data-shakespeare="Writ with quill and candlelight · Tarun Singh, Anno Domini MMXXVI · All rights reserved"
+                data-snape="Produced with exacting standards. No points were awarded in the making of this portfolio. · © MMXXVI"
+                data-tharoor="Constructed with no small degree of intellectual exertion and technical perspicacity · Tarun Singh © 2026"
+                data-attenborough="Tarun Singh. Senior Engineer. Crownstack. Noida. Currently — still shipping to production. © 2026">
+                Crafted with ☕ and Node.js · Tarun Singh © 2026
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
