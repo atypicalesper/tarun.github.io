@@ -52,8 +52,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
         }
     }
 
-    if (!mounted) return null;
-
     return (
         <ThemeContext.Provider value={{ theme, setThemeId, themes }}>
             {children}
